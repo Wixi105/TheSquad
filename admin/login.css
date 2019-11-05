@@ -19,8 +19,8 @@
     font-weight: 300;
     font-size: 1.5rem;
   }
-  .row1{
-      margin: 45px 0 0 0;
+  .row{
+      margin: 70px 0 0 0;
   }
   
   .card-signin .card-body {
@@ -102,7 +102,7 @@
     color: #777;
   }
   
-  .btn-google {
+  /* .btn-google {
     color: white;
     background-color: #ea4335;
   }
@@ -110,7 +110,7 @@
   .btn-facebook {
     color: white;
     background-color: #3b5998;
-  }
+  } */
   
   /* Fallback for Edge
   -------------------------------------------------- */
