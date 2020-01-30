@@ -1,51 +1,11 @@
-<html>
-<head>
-	<title>The Squad</title>
-	<meta charset="utf-8">
-	<meta name="author" content="TheSquad">
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- FONT AWESOME -->
-	 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-</head>
+<?php include 'includes/head.php'; ?>
+
 <body>	
+<?php 
 
-<nav class="navbar navbar-expand-md navbar-light bg-primary fixed-top">
+include 'includes/nav.php'; 
 
-		<a href="" class="navbar-brand"><i class="text-warning bg-light rounded p-1 font-weight-bold">TheSquad<em style="font-family: 'Times New Roman',sans-serif;">dot</em>Com</i></a>
-
-		 <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
-
-		<div class="collapse navbar-collapse justify-content-between" id="nav">
-		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="index.html">Home</a></li>
- 			<li class="nav-item dropdown" data-toggle="dropdown"><a class="nav-link text-light font-weight-bold px-3 dropdown-toggle" href="#">Stories</a>
-                    <div class="dropdown-menu">
-						<a class="dropdown-item" href="allposts.html">All</a>
-                        <a class="dropdown-item" href="#">Technology</a>
-                        <a class="dropdown-item" href="#">Christian and Motivational</a>
-                        <a class="dropdown-item" href="#">How To(DIYs)</a>
-						<a class="dropdown-item" href="#">Campus News</a>
-						<a class="dropdown-item" href="#">Miscellaneous</a>
-                    </div>
-                </li>			
-                <li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="theteam.html">The Team</a></li>
-			<li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="contactus.html">Contact Us</a></li>
-			<li class="nav-item"><a class="nav-link text-light font-weight-bold px-3" href="gallery.html">Gallery</a></li>
-		</ul>
-		<form class="form-inline ml-3">
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search" name="">
-				<div class="input-group-append">
-					<button class="btn bg-light" type="button"><i class="fas fa-search"></i></button>
-				</div>
-			</div>
-
-		</form>
-	</div>
-
-	</nav>
+?>
 
   <!-- Page Content -->
   <div class="container mt-5">
@@ -156,7 +116,7 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for...">
               <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">Go!</button>
+                <button class="btn btn-primary" type="button">Go!</button>
               </span>
             </div>
           </div>

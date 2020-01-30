@@ -1,4 +1,14 @@
-<html>
+<?php include '../includes/conn.php';?>
+<?php
+
+if(isset($_POST['submit'])){
+
+  header("Location: dashboard.php");
+
+}
+
+?> 
+<!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -20,7 +30,8 @@
               <div class="card card-signin my-5">
                 <div class="card-body">
                   <h5 class="card-title text-center">Sign In</h5>
-                  <form class="form-signin">
+                  <!-- form start -->
+                  <form class="form-signin" method="POST" action="index.php">
                     <div class="form-label-group">
                       <input type="text" id="inputText" class="form-control" placeholder="Username" required autofocus>
                       <label for="inputEmail">Username</label>
@@ -35,7 +46,7 @@
                       <input type="checkbox" class="custom-control-input" id="customCheck1">
                       <label class="custom-control-label" for="customCheck1">Remember password</label>
                     </div>
-                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name = "submit">Sign in</button>
                     <hr class="my-4">
                   </form>
                 </div>
