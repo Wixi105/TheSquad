@@ -77,7 +77,7 @@ include 'includes/nav.php';
 				<i class="fas fa-film fa-4x text-success mb-3"></i>
 				<h2 class="text-secondary">Got News?</h1>
 				<p class="text-muted my-4">Do you have a story you want us to post for you or investigate further? Click the button below and send us a message.</p>
-				<a href="contactus.html" class="btn btn-outline-success">Contact Us</a>
+				<a href="contactus.php" class="btn btn-outline-success">Contact Us</a>
 			</div>
 			
 			<div class="col-lg-6 col-sm-12 mx-auto mb-5">
